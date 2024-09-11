@@ -1,0 +1,16 @@
+{
+  "name": "assignment1",
+  "version": "1.0.0",
+  "main": "runQuizes.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon runQuizes.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
