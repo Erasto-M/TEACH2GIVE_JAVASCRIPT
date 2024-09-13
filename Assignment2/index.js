@@ -111,7 +111,7 @@ console.log(typeof student); // Output: undefined
 
 let age = null;
 
-console.log(age); // Output: null
+console.log("This is the variable returning : " + age); // Output: null
 
  
 
@@ -134,6 +134,9 @@ let info = { fname: 'Titus', sname: 'Kimutai', age: 23, isStudent: true, country
 let moreInfo = [countryInfo, marks, info];
 
 console.log(moreInfo);
+
+let myArrays = [marks, info]
+console.log('This is array of arrays: ',myArrays[0]);
 
  
 
@@ -172,6 +175,10 @@ console.log(infite1+ num3); //output is NaN
 let ourName = "urbanus";
 ourName = 30;
 console.log(ourName);
+
+console.log('this is a "String" element');
+
+
 
 
 
